@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sytze\\source\\repos\\Racegame\\Racegame\\Racegame.csproj",
+      "projectUniqueName": "C:\\Users\\Sytze\\Source\\Repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
       "projectName": "Racegame",
-      "projectPath": "C:\\Users\\Sytze\\source\\repos\\Racegame\\Racegame\\Racegame.csproj",
+      "projectPath": "C:\\Users\\Sytze\\Source\\Repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
       "packagesPath": "C:\\Users\\Sytze\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sytze\\source\\repos\\Racegame\\Racegame\\obj\\",
+      "outputPath": "C:\\Users\\Sytze\\Source\\Repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
