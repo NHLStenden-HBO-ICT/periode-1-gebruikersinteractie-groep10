@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:Racegame"
         mc:Ignorable="d"
         Title="CircuitSelection" Height="450" Width="800">
+
     <Grid Background="#1f1f1f">
-        <Button x:Name="LeftButton" Width="100px" Content="Left" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" Height="50">
+        <Button x:Name="LeftButton" Width="100px" Content="Left" Height="50" HorizontalAlignment="Left" Click="PreviousImage_Click" Margin="10">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#b1b1b1"/>
@@ -29,7 +30,7 @@
             </Button.Style>
         </Button>
 
-        <Button x:Name="RightButton" Width="100px" Content="Right" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="680,0,0,0" Height="50">
+        <Button x:Name="RightButton" Width="100px" Content="Right" HorizontalAlignment="Right" Height="50" Click="NextImage_Click" Margin="10">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#b1b1b1"/>
@@ -52,23 +53,19 @@
         </Button>
 
 
-        <Rectangle Height="200" Width="200" Stroke="#b1b1b1">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="Images/SillySlope.png" />
-            </Rectangle.Fill>
-        </Rectangle>
+        <Grid x:Name="imageContainer1" Width="200" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Rectangle Height="200" Width="200" Stroke="#b1b1b1"/>
+            <Image x:Name="image1" Stretch="Fill"/>
+        </Grid>
 
-        <Rectangle Height="100" Width="100" Stroke="#b1b1b1" Margin="540,167,160,167">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="Images/SpagettiTime.png" />
-            </Rectangle.Fill>
-        </Rectangle>
+        <Grid x:Name="imageContainer2" Width="100" Height="100" HorizontalAlignment="left" VerticalAlignment="Center" Margin="150">
+            <Rectangle Height="100" Width="100" Stroke="#b1b1b1"/>
+            <Image x:Name="image2" Stretch="Fill"/>
+        </Grid>
 
-        <Rectangle Height="100" Width="100" Stroke="#b1b1b1" Margin="160,167,540,167">
-            <Rectangle.Fill>
-                <ImageBrush ImageSource="Images/GoodOlClassic.png" />
-            </Rectangle.Fill>
-        </Rectangle>
-
+        <Grid x:Name="imageContainer3" Width="100" Height="100" HorizontalAlignment="right" VerticalAlignment="Center" Margin="150">
+            <Rectangle Height="100" Width="100" Stroke="#b1b1b1"/>
+            <Image x:Name="image3" Stretch="Fill"/>
+        </Grid>
     </Grid>
 </Window>
