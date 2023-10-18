@@ -17,7 +17,7 @@ namespace Racegame
             MainWindow mainWindow = Application.Current.MainWindow as MainWindow;
             if (mainWindow != null)
             {
-                mainWindow.clearMain();
+                mainWindow.Content = null;
                 mainWindow.Content = new CircuitSelection();
             }
         }
