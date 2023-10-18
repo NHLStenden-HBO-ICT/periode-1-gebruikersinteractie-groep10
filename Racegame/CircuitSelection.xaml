@@ -67,5 +67,7 @@
             <Rectangle Height="100" Width="100" Stroke="#b1b1b1"/>
             <Image x:Name="image3" Stretch="Fill"/>
         </Grid>
+
+		
     </Grid>
 </Page>
