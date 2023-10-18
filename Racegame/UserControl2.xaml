@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="Racegame.UserControl2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Racegame"
+             mc:Ignorable="d" 
+            
+             Height="auto" Width="auto">
+    <Canvas Height="214" RenderTransformOrigin="0.5,0.5" Width="891">
+        <Button x:Name="LeftButton" Width="100px" Content="Left" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Canvas.Left="10" Canvas.Top="80">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#b1b1b1"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Button x:Name="RightButton" Width="100px" Content="Right" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Canvas.Left="774" Canvas.Top="80">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="#b1b1b1"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#ffb34f"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
+        <Rectangle Fill="red" Height="200" Width="200" Stroke="#b1b1b1" Canvas.Left="347" Canvas.Top="5" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Rectangle Fill="Blue" Height="100" Width="100" Stroke="#b1b1b1" Canvas.Left="607" Canvas.Top="55" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Rectangle Fill="green" Height="100" Width="100" Stroke="#b1b1b1" Canvas.Left="183" Canvas.Top="55" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Canvas>
+</UserControl>

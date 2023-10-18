@@ -18,7 +18,7 @@ namespace Racegame
     /// <summary>
     /// Interaction logic for CircuitSelection.xaml
     /// </summary>
-    public partial class CircuitSelection : Window
+    public partial class CircuitSelection : Page
     {
 
 
