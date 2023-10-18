@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1FHCU74nXXjpVGFZn1vNxgeEeyAMxUjF9mpnVdFIWB7pwa2l9a2DIhp3WQqdzE+CIWctsgNxC1hfTNuDbs63FQ==",
+  "dgSpecHash": "Wey/D6UGleqQc4UgUHL6ScRBjnQpw49ZezxyqOCjoy5OF9NfNKiHltR189KttuFIpJyTjLHEVShgC3zr9s5Vfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj",
+  "projectFilePath": "C:\\Users\\yoeri\\source\\repos\\gamedev\\Racegame\\Racegame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

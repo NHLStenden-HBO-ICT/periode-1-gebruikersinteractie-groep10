@@ -82,9 +82,9 @@ namespace Racegame
                 // Iterate through each player and render elements based on their properties.
                 foreach (Player player in playerList)
                 {
-                    Canvas.SetLeft(player.Img, player.X);
-                    Canvas.SetTop(player.Img, player.Y);
-                    player.Img.RenderTransform = new RotateTransform(player.Angle, player.Img.Width / 2, player.Img.Height / 2); // Rotate the player's graphical element around its center point // // Call the Render method for each player to render their state.
+                    Canvas.SetLeft(player.Element, player.X);
+                    Canvas.SetTop(player.Element, player.Y);
+                    player.Element.RenderTransform = new RotateTransform(player.Angle, player.Element.Width / 2, player.Element.Height / 2); // Rotate the player's graphical element around its center point // // Call the Render method for each player to render their state.
                 }
             }
         }

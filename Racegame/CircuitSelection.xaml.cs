@@ -56,5 +56,11 @@ namespace Racegame
             currentIndex = (currentIndex - 1 + imagePaths.Length) % imagePaths.Length;
             UpdateImages();
         }
+
+        private void StartGame(object sender, RoutedEventArgs e)
+        {
+            Gamescreen GameWindow = new Gamescreen();       
+            GameWindow.Show();
+        }
     }
 }

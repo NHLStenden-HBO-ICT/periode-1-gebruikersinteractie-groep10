@@ -26,7 +26,6 @@ public class Player
     public Key[] KeyControls; // Key controls for left, forward, and right movements. //
     public bool[] KeyDown = { false, false, false }; // Store directions as boolean values (left, forward, right). //
     public Rectangle Element = new Rectangle(); // Create rectangle to serve as a base element for the player. //
-    public Image Img = new Image();
     public Player(Canvas canvas, string playerName, Key[] keyControls, double x = 0, double y = 0)
     {
         X = x;
@@ -37,16 +36,10 @@ public class Player
         int rectHeight = 20; // Set the properties of the player's graphical element //
         int rectWidth = 40;
 
-        Img.Height = rectHeight * 2;
-        Img.Width = rectWidth;
-        Img.Source = new BitmapImage(new Uri("pack://application:,,,/Racegame;component/car.png\r\n"));
-        Img.Stretch = Stretch.Fill;
-
         Element.Height = rectHeight;
         Element.Width = rectWidth;
-        Element.Stroke = Brushes.Black; Element.StrokeThickness = 1;
-
-        canvas.Children.Add(Img);
+        Element.Fill = Brushes.Red; 
+ 
         canvas.Children.Add(Element); // Add the player's graphical element to the canvas //
 
     }
