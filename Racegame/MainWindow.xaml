@@ -8,7 +8,6 @@
         WindowState="Maximized"
         Title="MainWindow" Height="1080" Width="1920">
 
-
     <Grid Name="mainGrid" Background="#1f1f1f">
         <Grid.RowDefinitions>
             <RowDefinition Height="116"/>
@@ -29,6 +28,6 @@
         <Button Grid.Column="2" Content="Instellingen" Click="Button_Click" Margin="10,30,10,4" Grid.Row="1" FontSize="72" Background="Black" Foreground="White" BorderThickness="2"/>
         <Button Grid.Column="3" Content="Afsluiten" Click="Button_Click" Margin="10,30,54,4" Grid.Row="1" FontSize="72" Background="Black" Foreground="White" BorderThickness="2"/>
 
-        <Frame x:Name="testFrame" Margin="54,16,54,31" Grid.ColumnSpan="4" RenderTransformOrigin="0.5,0.5" Grid.Row="2" NavigationUIVisibility="Hidden" BorderBrush="Orange" BorderThickness="2" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+        <Frame x:Name="testFrame" Margin="54,16,54,31" Grid.ColumnSpan="4" RenderTransformOrigin="0.5,0.5" Grid.Row="2" NavigationUIVisibility="Hidden" BorderBrush="Orange" BorderThickness="1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
     </Grid>
 </Window>
