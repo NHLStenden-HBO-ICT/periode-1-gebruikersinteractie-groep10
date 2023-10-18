@@ -8,11 +8,7 @@
     
     <!-- Import stylesheer -->
     <UserControl.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
     </UserControl.Resources>
 
     <Canvas Height="263" Width="930">

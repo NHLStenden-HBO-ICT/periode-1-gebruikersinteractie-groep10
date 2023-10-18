@@ -8,13 +8,9 @@
         WindowState="Maximized"
         Title="MainWindow" Height="1080" Width="1920">
     
-    <!-- Import stylesheer -->
+    <!-- Import stylesheet -->
     <Window.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
+        <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
     </Window.Resources>
     
     <Grid Name="mainGrid" Background="#1f1f1f">
@@ -31,7 +27,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Sammy Racegame" Foreground="Orange" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,2,0,0" HorizontalAlignment="Center" FontSize="72" Width="718" VerticalAlignment="Center" TextAlignment="Center"/>
+        <TextBlock Text="Racegame" Foreground="Orange" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,2,0,0" HorizontalAlignment="Center" FontSize="72" Width="718" VerticalAlignment="Center" TextAlignment="Center"/>
         <Button Grid.Column="0" Content="Hoofdmenu" Click="Button_Click" Style="{StaticResource ButtonStyle}" Margin="54,30,10,4" Grid.Row="1"/>
         <Button Grid.Column="1" Content="Informatie" Click="Button_Click2" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>
         <Button Grid.Column="2" Content="Instellingen" Click="Button_Click3" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>

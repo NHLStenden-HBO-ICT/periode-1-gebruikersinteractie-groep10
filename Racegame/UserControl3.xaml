@@ -6,11 +6,16 @@
              xmlns:local="clr-namespace:Racegame"
              mc:Ignorable="d"
              Height="0" Width="0">
-    <Canvas Margin="-4,0,-1558,-601" RenderTransformOrigin="0.5,0.5">
-        <Button Content="Besturing" FontSize="50" VerticalContentAlignment="Center" Height="110" Width="369" Canvas.Left="156" Canvas.Top="190" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
-        <Button Content="Gameplay" FontSize="50" VerticalContentAlignment="Center" Height="110" Width="369" Canvas.Left="156" Canvas.Top="74" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
-        <Button Content="Audio" FontSize="50" VerticalContentAlignment="Center" Height="112" Width="369" Canvas.Left="156" Canvas.Top="306" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.733"/>
-        <Button Content="Taal" FontSize="50" VerticalContentAlignment="Center" Height="112" Width="369" Canvas.Left="156" Canvas.Top="422" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Frame BorderThickness="1" BorderBrush="Orange" Height="460" Width="780" Canvas.Left="587" Canvas.Top="74"></Frame>
+
+    <UserControl.Resources>
+        <ResourceDictionary Source="Styles.xaml"/>
+    </UserControl.Resources>
+
+    <Canvas Margin="4,-222,-1804,-575" RenderTransformOrigin="0.5,0.5">
+        <Button Content="Besturing" FontSize="50" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" Height="110" Width="426" Canvas.Top="387" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Gameplay" FontSize="50" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" Height="110" Width="426" Canvas.Top="247" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Button Content="Audio" FontSize="50" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" Height="112" Width="426" Canvas.Top="540" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.507,0.733"/>
+        <Button Content="Taal" FontSize="50" Style="{StaticResource ButtonStyle}" VerticalContentAlignment="Center" Height="112" Width="426" Canvas.Top="687" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Frame BorderThickness="2" BorderBrush="Black" Height="552" Width="1359" Canvas.Left="426" Canvas.Top="247" HorizontalAlignment="Center" VerticalAlignment="Top"></Frame>
     </Canvas>
 </UserControl>
