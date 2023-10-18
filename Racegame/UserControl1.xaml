@@ -5,7 +5,17 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Racegame"
              HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+    
+    <!-- Import stylesheer -->
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
     <Canvas Height="263" Width="930">
-        <Button Content="Start game" Click="Button_Click" Height="241" Canvas.Left="10" Canvas.Top="12" Width="912" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="72"/>
+        <Button Content="Start game" Click="Button_Click" Style="{StaticResource ButtonStyle}" Height="241" Canvas.Left="10" Canvas.Top="12" Width="912" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="72"/>
     </Canvas>
 </UserControl>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\yoeri\Source\Repos\latestracegame\Racegame\obj\Debug\net6.0-windows\
+C:\Users\yoeri\Source\Repos\lol3\Racegame\obj\Debug\net6.0-windows\
 Racegame
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\yoeri\Source\Repos\latestracegame\Racegame\App.xaml
-4-251248000
+C:\Users\yoeri\Source\Repos\lol3\Racegame\App.xaml
+6-705774865
 
-8-157273076
+9-1145432873
 194726069201
-CircuitSelection.xaml;MainWindow.xaml;UserControl1.xaml;UserControl2.xaml;
+CircuitSelection.xaml;MainWindow.xaml;Styles.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;
 
 False
 

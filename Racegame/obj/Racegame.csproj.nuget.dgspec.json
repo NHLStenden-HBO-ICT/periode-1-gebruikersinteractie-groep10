@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoeri\\Source\\Repos\\latestracegame\\Racegame\\Racegame.csproj": {}
+    "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoeri\\Source\\Repos\\latestracegame\\Racegame\\Racegame.csproj": {
+    "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\latestracegame\\Racegame\\Racegame.csproj",
+        "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj",
         "projectName": "Racegame",
-        "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\latestracegame\\Racegame\\Racegame.csproj",
+        "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj",
         "packagesPath": "C:\\Users\\yoeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\latestracegame\\Racegame\\obj\\",
+        "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yoeri\\AppData\\Roaming\\NuGet\\NuGet.Config",

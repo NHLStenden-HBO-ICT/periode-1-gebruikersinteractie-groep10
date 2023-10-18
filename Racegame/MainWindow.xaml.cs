@@ -28,6 +28,7 @@ namespace Racegame
         {
             { "page1", new UserControl1() },
             { "page2", new UserControl2() },
+            { "page3", new UserControl3() },
         };
 
         public MainWindow()
@@ -54,6 +55,11 @@ namespace Racegame
         private void Button_Click2(object sender, RoutedEventArgs e)
         {
             SetPage("page2");
+        }
+
+        private void Button_Click3(object sender, RoutedEventArgs e)
+        {
+            SetPage("page3");
         }
     }
 }
