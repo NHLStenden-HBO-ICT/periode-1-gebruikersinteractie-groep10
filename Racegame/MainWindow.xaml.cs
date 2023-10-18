@@ -44,9 +44,8 @@ namespace Racegame
         }
         private void onMenuTick(object sender, EventArgs e) 
         { 
-        
+        // update screen to make content scale with windowsize/resolution.
         }
-
         private void SetPage(string key) 
         {
             testFrame.Content = null;
@@ -66,10 +65,6 @@ namespace Racegame
         private void Button_Click2(object sender, RoutedEventArgs e)
         {
             SetPage("page2");
-        }
-
-        public void clearMain() {
-            this.Content = null;
         }
     }
 }
