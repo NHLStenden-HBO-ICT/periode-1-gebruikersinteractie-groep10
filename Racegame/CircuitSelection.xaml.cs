@@ -20,8 +20,6 @@ namespace Racegame
     /// </summary>
     public partial class CircuitSelection : Page
     {
-
-
         private string[] imagePaths;
         private int currentIndex = 0;
 
