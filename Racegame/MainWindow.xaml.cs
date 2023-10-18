@@ -16,7 +16,6 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
 
-
 namespace Racegame
 {
     /// <summary>
@@ -24,28 +23,18 @@ namespace Racegame
     /// </summary>
     public partial class MainWindow : Window
     {
-        DispatcherTimer menuTimer;
- 
         // create userpages
         Dictionary<string, UserControl> userControlDict = new Dictionary<string, UserControl>
         {
             { "page1", new UserControl1() },
             { "page2", new UserControl2() },
-
         };
 
         public MainWindow()
         {
             InitializeComponent();
-            menuTimer = new DispatcherTimer();
-            menuTimer.Tick += onMenuTick;
-            menuTimer.Interval = TimeSpan.FromMilliseconds(60);
-            menuTimer.Start();
         }
-        private void onMenuTick(object sender, EventArgs e) 
-        { 
-        // update screen to make content scale with windowsize/resolution.
-        }
+
         private void SetPage(string key) 
         {
             testFrame.Content = null;
