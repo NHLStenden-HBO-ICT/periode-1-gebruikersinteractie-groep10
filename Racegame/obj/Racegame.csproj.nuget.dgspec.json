@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj": {}
+    "\\\\Mac\\Home\\Documents\\GitHub\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj": {
+    "\\\\Mac\\Home\\Documents\\GitHub\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\GitHub\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
         "projectName": "Racegame",
-        "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\Racegame.csproj",
-        "packagesPath": "C:\\Users\\yoeri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\lol3\\Racegame\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Documents\\GitHub\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
+        "packagesPath": "C:\\Users\\rohitguptar\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\GitHub\\periode-1-gebruikersinteractie-groep10\\Racegame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yoeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rohitguptar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
