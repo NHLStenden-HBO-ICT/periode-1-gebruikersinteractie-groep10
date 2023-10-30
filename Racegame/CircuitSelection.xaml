@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Racegame"
         mc:Ignorable="d"
-        Title="CircuitSelection" Height="1080" Width="1920">
-
+        Title="testwindow" Height="1080" Width="1920">
+    <Page.Resources>
+        <ResourceDictionary Source="Styles.xaml"/>
+    </Page.Resources>
+        
     <Grid Background="#1f1f1f">
         <Button x:Name="LeftButton" Width="100px" Content="Left" Height="50" HorizontalAlignment="Center" Click="PreviousImage_Click" Margin="10,10,650,10" VerticalAlignment="Center">
             <Button.Style>
@@ -67,5 +70,8 @@
             <Rectangle Height="100" Width="100" Stroke="#b1b1b1"/>
             <Image x:Name="image3" Stretch="Fill"/>
         </Grid>
+
+        <Button Content="Start" Click="StartGame" Margin="846,701,846,297" Style="{StaticResource ButtonStyle}" ></Button>
+		
     </Grid>
 </Page>
