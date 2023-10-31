@@ -31,7 +31,7 @@
         <Button Grid.Column="0" Content="Hoofdmenu" Click="Button_Click" Style="{StaticResource ButtonStyle}" Margin="54,30,10,4" Grid.Row="1"/>
         <Button Grid.Column="1" Content="Informatie" Click="Button_Click2" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>
         <Button Grid.Column="2" Content="Instellingen" Click="Button_Click3" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>
-        <Button Grid.Column="3" Content="Afsluiten" Click="Button_Click" Style="{StaticResource ButtonStyle}" Margin="10,30,54,4" Grid.Row="1"/>
+        <Button Grid.Column="3" Content="Afsluiten" Click="Button_Click4" Style="{StaticResource ButtonStyle}" Margin="10,30,54,4" Grid.Row="1"/>
 
         <Frame x:Name="testFrame" Margin="54,16,54,31" Grid.ColumnSpan="4" RenderTransformOrigin="0.5,0.5" Grid.Row="2" NavigationUIVisibility="Hidden" BorderBrush="#ffb34f" BorderThickness="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
     </Grid>

@@ -61,5 +61,10 @@ namespace Racegame
         {
             SetPage("page3");
         }
+
+        private void Button_Click4(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
     }
 }
