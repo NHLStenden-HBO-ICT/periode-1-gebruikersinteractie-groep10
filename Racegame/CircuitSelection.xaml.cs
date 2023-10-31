@@ -62,5 +62,18 @@ namespace Racegame
             Gamescreen GameWindow = new Gamescreen();       
             GameWindow.Show();
         }
+
+        private void Return(object sender, RoutedEventArgs e)
+        {
+            
+            MainWindow newMainWindow = new MainWindow();
+
+            
+            Window thisWindow = Window.GetWindow(this);
+            thisWindow.Close();
+
+            newMainWindow.Show();
+
+        }
     }
 }
