@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Racegame"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        WindowState="Maximized"
+        Title="MainWindow" Height="1080" Width="1920">
+    
+    <!-- Import stylesheet -->
+    <Window.Resources>
+        <ResourceDictionary Source="Styles.xaml"></ResourceDictionary>
+    </Window.Resources>
+    
+    <Grid Name="mainGrid" Background="#1f1f1f">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="116"/>
+            <RowDefinition Height="158"/>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="Racegame" Foreground="Orange" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,2,0,0" HorizontalAlignment="Center" FontSize="72" Width="718" VerticalAlignment="Center" TextAlignment="Center"/>
+        <Button Grid.Column="0" Content="Hoofdmenu" Click="Button_Click" Style="{StaticResource ButtonStyle}" Margin="54,30,10,4" Grid.Row="1"/>
+        <Button Grid.Column="1" Content="Informatie" Click="Button_Click2" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>
+        <Button Grid.Column="2" Content="Instellingen" Click="Button_Click3" Style="{StaticResource ButtonStyle}" Margin="10,30,10,4" Grid.Row="1"/>
+        <Button Grid.Column="3" Content="Afsluiten" Click="Button_Click" Style="{StaticResource ButtonStyle}" Margin="10,30,54,4" Grid.Row="1"/>
+
+        <Frame x:Name="testFrame" Margin="54,16,54,31" Grid.ColumnSpan="4" RenderTransformOrigin="0.5,0.5" Grid.Row="2" NavigationUIVisibility="Hidden" BorderBrush="Orange" BorderThickness="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
     </Grid>
 </Window>

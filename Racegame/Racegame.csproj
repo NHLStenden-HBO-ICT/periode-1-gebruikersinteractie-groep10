@@ -8,8 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\GoodOlClassic.png" />
+    <None Remove="Images\SillySlope.png" />
+    <None Remove="Images\SpagettiTime.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Fonts\" />
-    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\GoodOlClassic.png" />
+    <Resource Include="Images\SillySlope.png" />
+    <Resource Include="Images\SpagettiTime.png" />
   </ItemGroup>
 
 </Project>
