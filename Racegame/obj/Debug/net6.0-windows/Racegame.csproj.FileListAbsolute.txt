@@ -135,3 +135,12 @@ C:\Users\yoeri\source\repos\gamedev\Racegame\obj\Debug\net6.0-windows\Racegame.g
 C:\Users\yoeri\source\repos\gamedev\Racegame\obj\Debug\net6.0-windows\ref\Racegame.dll
 C:\Users\yoeri\source\repos\gamedev\Racegame\obj\Debug\net6.0-windows\Gamescreen.g.cs
 C:\Users\yoeri\source\repos\gamedev\Racegame\obj\Debug\net6.0-windows\Gamescreen.baml
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\Styles.baml
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\Gamescreen.g.cs
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl1.g.cs
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl2.g.cs
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl3.g.cs
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\Gamescreen.baml
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl1.baml
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl2.baml
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\UserControl3.baml

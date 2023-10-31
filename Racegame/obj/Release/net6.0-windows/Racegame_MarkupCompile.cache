@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\yoeri\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Release\net6.0-windows\
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Release\net6.0-windows\
 Racegame
 none
 false
 TRACE;RELEASE;NET;NET6_0;NETCOREAPP
-C:\Users\yoeri\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\App.xaml
-6-705774865
+C:\Users\Sytze\source\repos\periode-1-gebruikersinteractie-groep10\Racegame\App.xaml
+7-1237641708
 
-102048116954
+111291020265
 194726069201
-CircuitSelection.xaml;MainWindow.xaml;Styles.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;
+CircuitSelection.xaml;Gamescreen.xaml;MainWindow.xaml;Styles.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;
 
 True
 

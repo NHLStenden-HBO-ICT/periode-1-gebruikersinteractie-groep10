@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yoeri\\.nuget\\packages\\": {}
+    "C:\\Users\\Sytze\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10111111\\Racegame\\Racegame.csproj",
+      "projectUniqueName": "C:\\Users\\Sytze\\source\\repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
       "projectName": "Racegame",
-      "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10111111\\Racegame\\Racegame.csproj",
-      "packagesPath": "C:\\Users\\yoeri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10111111\\Racegame\\obj\\",
+      "projectPath": "C:\\Users\\Sytze\\source\\repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\Racegame.csproj",
+      "packagesPath": "C:\\Users\\Sytze\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sytze\\source\\repos\\periode-1-gebruikersinteractie-groep10\\Racegame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yoeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sytze\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
