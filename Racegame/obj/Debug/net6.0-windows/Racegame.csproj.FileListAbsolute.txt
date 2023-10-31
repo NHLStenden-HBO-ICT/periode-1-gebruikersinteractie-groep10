@@ -166,3 +166,5 @@ C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10njkjl\Racegame
 C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10njkjl\Racegame\obj\Debug\net6.0-windows\Racegame.pdb
 C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10njkjl\Racegame\obj\Debug\net6.0-windows\Racegame.genruntimeconfig.cache
 C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10njkjl\Racegame\obj\Debug\net6.0-windows\ref\Racegame.dll
+C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\Gamescreen.g.cs
+C:\Users\yoeri\Source\Repos\periode-1-gebruikersinteractie-groep10\Racegame\obj\Debug\net6.0-windows\Gamescreen.baml
