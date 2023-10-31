@@ -11,14 +11,14 @@
         <!-- Left Arrow Button -->
         <Button Click="Left_Button_Click" Width="50" Height="100" Canvas.Left="10" Canvas.Top="120" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Transparent" BorderBrush="Transparent">
             <Viewbox>
-                <Path Data="M10,0 L0,5 L10,10" Fill="Orange" Height="20" Stretch="Fill" />
+                <Path Data="M10,0 L0,5 L10,10" Fill="#ffb34b" Height="20" Stretch="Fill" />
             </Viewbox>
         </Button>
 
         <!-- Right Arrow Button -->
         <Button Click="Right_Button_Click" Width="50" Height="100" Canvas.Left="1587" Canvas.Top="120" HorizontalAlignment="Left" VerticalAlignment="Center" Background="Transparent" BorderBrush="Transparent">
             <Viewbox>
-                <Path Data="M0,0 L10,5 L0,10" Fill="Orange" Height="20" Stretch="Fill" />
+                <Path Data="M0,0 L10,5 L0,10" Fill="#ffb34f" Height="20" Stretch="Fill" />
             </Viewbox>
         </Button>
 

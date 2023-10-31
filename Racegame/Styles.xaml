@@ -4,8 +4,8 @@
     <!-- Main Button style -->
     <Style x:Key="ButtonStyle" TargetType="Button">
         <Setter Property="FontSize" Value="50"/>
-        <Setter Property="Background" Value="Black"/>
-        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="black"/>
+        <Setter Property="Foreground" Value="#b1b1b1"/>
 
         <!-- Control template to remove default hover effects -->
         <Setter Property="Template">
@@ -25,7 +25,7 @@
                         <BeginStoryboard>
                             <Storyboard>
                                 <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)"
-                                                To="Orange" Duration="0:0:0.4" />
+                                                To="#ffb34f" Duration="0:0:0.4" />
                                 <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)"
                                                 To="Black" Duration="0:0:0.1" />
                             </Storyboard>
