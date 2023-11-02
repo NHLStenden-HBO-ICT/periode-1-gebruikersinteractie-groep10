@@ -11,6 +11,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
@@ -36,7 +37,7 @@ namespace Racegame
             InitializeComponent();
         }
 
-        private void SetPage(string key) 
+        private void SetPage(string key)
         {
             testFrame.Content = null;
             testFrame.NavigationService.RemoveBackEntry();
@@ -65,6 +66,11 @@ namespace Racegame
         private void Button_Click4(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void logoFadeCompleted(object sender, EventArgs e)
+        {
+            SetPage("page1");
         }
     }
 }

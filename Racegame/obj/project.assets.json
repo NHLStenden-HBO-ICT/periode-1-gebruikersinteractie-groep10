@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10njkjl\\Racegame\\Racegame.csproj",
+      "projectUniqueName": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10dadgdhbdcb\\Racegame\\Racegame.csproj",
       "projectName": "Racegame",
-      "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10njkjl\\Racegame\\Racegame.csproj",
+      "projectPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10dadgdhbdcb\\Racegame\\Racegame.csproj",
       "packagesPath": "C:\\Users\\yoeri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10njkjl\\Racegame\\obj\\",
+      "outputPath": "C:\\Users\\yoeri\\Source\\Repos\\periode-1-gebruikersinteractie-groep10dadgdhbdcb\\Racegame\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yoeri\\AppData\\Roaming\\NuGet\\NuGet.Config",
