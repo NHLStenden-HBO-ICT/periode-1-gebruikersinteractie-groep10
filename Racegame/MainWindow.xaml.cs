@@ -37,7 +37,7 @@ namespace Racegame
             InitializeComponent();
         }
 
-        private void SetPage(string key)
+        public void SetPage(string key)
         {
             testFrame.Content = null;
             testFrame.NavigationService.RemoveBackEntry();

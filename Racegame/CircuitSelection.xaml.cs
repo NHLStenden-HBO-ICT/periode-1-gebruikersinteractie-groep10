@@ -70,10 +70,8 @@ namespace Racegame
 
             
             Window thisWindow = Window.GetWindow(this);
-            thisWindow.Close();
-
-            newMainWindow.Show();
-
+            thisWindow.Content = newMainWindow.Content;
+            newMainWindow.fadingLogo.Visibility = Visibility.Hidden;
         }
     }
 }

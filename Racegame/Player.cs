@@ -17,7 +17,7 @@ public class Player
     public double X;
     public double Y;
     public string Name;
-    public double Angle = 50;
+    public double Angle = 0;
     private double maxSpeed = 5;
 
     private double Speed = 0;

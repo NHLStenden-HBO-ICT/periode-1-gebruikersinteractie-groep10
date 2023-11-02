@@ -5,6 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Racegame"
         mc:Ignorable="d"
-        Title="Gamescreen" Height="450" Width="800">
-    <Canvas Name="canvasElement" Focusable="True" KeyDown="OnKeyDown" KeyUp="OnKeyUp" Background="WhiteSmoke"/>
+        Title="Gamescreen" Height="1080" Width="1920">
+    <Canvas Name="canvasElement" Focusable="True" KeyDown="OnKeyDown" KeyUp="OnKeyUp" Background="#88EE88">
+        <!-- Racetrack Borders -->
+        <Path Stroke="#101010" StrokeThickness="100" Name="Racetrack">
+            <Path.Data>
+                <GeometryGroup>
+                    <PathGeometry>
+                        <PathFigure StartPoint="100,250" >
+                            <PolyLineSegment Points="150,150, 1700,150 1800,200 1800,300, 1100,300, 1100,400
+                                             1000,500, 900,500, 800,400, 800,300, 500,300, 400,400 400,700,
+                                             1700,700, 1800,750 1800,850, 1700,900 100,900, 100,250, 150, 150"
+                                             />
+                        </PathFigure>
+                    </PathGeometry>
+                    <!-- Voeg meer PathGeometry toe voor andere segmenten van de racetrack -->
+                </GeometryGroup>
+            </Path.Data>
+        </Path>
+
+    </Canvas>
 </Window>

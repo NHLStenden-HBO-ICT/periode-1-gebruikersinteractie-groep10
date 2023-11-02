@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -20,14 +21,17 @@ namespace Racegame
     public partial class Gamescreen : Window
     {
         GameEngine engine;
+        private IngameMenu IngameMenu;
+
         public Gamescreen()
         {
             InitializeComponent();
+            WindowStyle = WindowStyle.None;
+            WindowState = WindowState.Maximized;
             engine = new GameEngine(canvasElement);
-            canvasElement.Children.Clear();
 
-            engine.AddPlayer("test", new Key[] { Key.A, Key.W, Key.D }, 10, 10);
-            engine.AddPlayer("test", new Key[] { Key.Left, Key.Up, Key.Right }, 10, 10);
+            engine.AddPlayer("test", new Key[] { Key.A, Key.W, Key.D }, 200, 125);
+            engine.AddPlayer("test", new Key[] { Key.Left, Key.Up, Key.Right }, 200, 160);
             engine.Start();
         }
 
