@@ -11,6 +11,8 @@
     <None Remove="Images\GoodOlClassic.png" />
     <None Remove="Images\SillySlope.png" />
     <None Remove="Images\SpagettiTime.png" />
+    <None Remove="logo.png" />
+    <None Remove="sammyRacing text.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +23,8 @@
     <Resource Include="Images\GoodOlClassic.png" />
     <Resource Include="Images\SillySlope.png" />
     <Resource Include="Images\SpagettiTime.png" />
+    <Resource Include="logo.png" />
+    <Resource Include="sammyRacing text.png" />
   </ItemGroup>
 
 </Project>
