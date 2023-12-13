@@ -13,9 +13,12 @@
     <Compile Update="Gamescreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< Updated upstream
     <Compile Update="UserControl3.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+=======
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Page Update="CircuitSelection.xaml">

@@ -117,7 +117,7 @@ namespace Racegame {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Racegame;component/circuitselection.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Racegame;V1.0.0.0;component/circuitselection.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CircuitSelection.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

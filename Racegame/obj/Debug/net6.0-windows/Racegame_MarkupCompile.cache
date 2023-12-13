@@ -9,12 +9,21 @@ Racegame
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+<<<<<<< Updated upstream
 C:\Users\yoeri\source\repos\periode-1-gebruikersinteractie-groep10main\Racegame\App.xaml
 7-1237641708
 
 111291020265
 194726069201
 CircuitSelection.xaml;Gamescreen.xaml;MainWindow.xaml;Styles.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;
+=======
+\\Mac\Home\Documents\GitHub\periode-1-gebruikersinteractie-groep10\Racegame\App.xaml
+6-705774865
+
+7-743961273
+194183970531
+CircuitSelection.xaml;MainWindow.xaml;Styles.xaml;UserControl1.xaml;UserControl2.xaml;UserControl3.xaml;
+>>>>>>> Stashed changes
 
 False
 
